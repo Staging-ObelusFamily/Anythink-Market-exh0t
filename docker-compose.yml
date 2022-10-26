@@ -32,7 +32,6 @@ services:
       - /usr/src/frontend/node_modules
     ports:
       - "3001:3001"
-      
 
   postgres-rails:
     container_name: postgres-rails
